@@ -1,0 +1,10 @@
+env:
+  PORT: 9000
+  NODE_ENV: development
+  host: localhost
+  username: root
+  dbname: restfuldeno
+  pass: password
+scripts:
+  start: denon run --allow-net --allow-env --allow-read index.ts
+  dev: denon test --allow-net --allow-env --allow-read index.ts
